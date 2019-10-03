@@ -4,7 +4,7 @@ import sys
 import setuptools
 from setuptools.command.install import install
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 
 
 class VerifyVersionCommand(install):
