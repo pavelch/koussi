@@ -1,4 +1,5 @@
 wheel
 setuptools
+twine
 certifi
 ruamel.yaml
