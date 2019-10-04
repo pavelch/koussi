@@ -19,6 +19,8 @@ facebook:
 ```
 
 ```python
+import pprint
+from koussi.secrets import Secrets
 params = {'keybase': {'user': 'pavelch', 'project': 'facebook'},
                   'envs': {'CYCOBOT_MESSAGE_API_KEY': 'ghghjg', 'FOO': 'bar', 'DD_API_KEY': 'key'}}
 my_secrets = Secrets(**params)()
