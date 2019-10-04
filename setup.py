@@ -4,7 +4,7 @@ import sys
 import setuptools
 from setuptools.command.install import install
 
-VERSION = '0.0.5'
+VERSION = '0.0.6'
 
 
 class VerifyVersionCommand(install):
@@ -25,6 +25,7 @@ setuptools.setup(
     name='koussi',
     version=VERSION,
     description='Secrets koussi',
+    url='https://github.com/pavelch/koussi',
     author="Pavel Chernovsky",
     author_email="pchernovsky@gmail.com",
     packages=setuptools.find_packages(),
