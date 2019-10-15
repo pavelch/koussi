@@ -21,7 +21,7 @@ facebook:
 ```python
 import pprint
 from koussi.secrets import Secrets
-params = {'keybase': {'user': 'pavelch', 'project': 'facebook'},
+params = {'keybase': {'user': 'pavelch', 'project': 'facebook', 'file': 'secrets_test.yaml'},
                   'envs': {'CYCOBOT_MESSAGE_API_KEY': 'ghghjg', 'FOO': 'bar', 'DD_API_KEY': 'key'}}
 my_secrets = Secrets(**params)()
 pprint.pprint(my_secrets)
