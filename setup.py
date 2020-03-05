@@ -38,7 +38,7 @@ setuptools.setup(
         'certifi',
         'ruamel.yaml',
     ],
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     # cmdclass={
     #     'verify': VerifyVersionCommand,
     # }
